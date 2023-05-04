@@ -39,11 +39,11 @@ In order to tackle the area coverage problem through the prism of exact resoluti
 
 ## Instances
 
-First, the inter-sensor performance is reported below:
+First, the inter-sensor performances are reported below:
 
 ![performances](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/performances.png)
 
-Then, the various instances are detailed below with a thumbnail allowing to visualize the grid under consideration.
+Then, the various instances are detailed hereafter with a thumbnail allowing to visualize the grid under consideration.
 
 ![group_1](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_1.png)
 
@@ -52,4 +52,12 @@ Then, the various instances are detailed below with a thumbnail allowing to visu
 ![group_3](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_3.png)
 
 ![group_4](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_4.png)
+
+## References
+
+[1] GEBCO Bathymetric Compilation Group, 2022. The GEBCO 2022 grid - a continuous terrain model of the global oceans and land. doi:10.5285/e0f0bb80-ab44-2739-e053-6c86abc0289c.
+
+## License
+
+This project is under MIT license. Please see the [LICENSE](LICENSE) file for more information.
 
