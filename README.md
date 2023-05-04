@@ -38,3 +38,18 @@ In order to tackle the area coverage problem through the prism of exact resoluti
 ![down_sampling](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/down_sampling.png)
 
 ## Instances
+
+First, the inter-sensor performance is reported below:
+
+![performances](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/performances.png)
+
+Then, the various instances are detailed below with a thumbnail allowing to visualize the grid under consideration.
+
+![group_1](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_1.png)
+
+![group_2](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_2.png)
+
+![group_3](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_3.png)
+
+![group_4](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_4.png)
+
