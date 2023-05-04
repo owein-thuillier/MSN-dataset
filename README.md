@@ -1,10 +1,10 @@
 # Dataset
 
-As part of a research project on the optimal configuration of heterogeneous Multistatic Sonar Networks (MSNs), we provide here a dataset of 100 instances that were derived from 4 DEMs with different topology (see *Visualisations* section). 
+As part of a research project on the optimal configuration of heterogeneous Multistatic Sonar Networks (MSNs), we provide here a dataset of 100 instances that were derived from 4 DEMs with different topology. 
 
 A Digital Elevation Model (DEM) is a representation of the topography of a given Area of Interest (AoI) using bathymetrics and/or altimetrics data. More precisely, these DEMs are based on elevation data made available by GEBCO [1] and which were subsequently preprocessed (see *Pre-processing* section) in order to down-sample the grids. This down-sampling was done so that they could be handled by exact resolution methods detailed in the related paper.
 
-For each DEM, we thus have proposed 25 instances with a different distribution for the 3 types of acoustic buoys (sonobuoys): transmitter-only (Tx), receiver-only (Rx) and transmitter-receiver (TxRx). These instances are detailed in the corresponding section. For completeness, the inter-sensor performance table is also rewritten here.
+For each DEM, we thus have derived 25 instances with a different distribution for the 3 types of acoustic buoys (sonobuoys): transmitter-only (Tx), receiver-only (Rx) and transmitter-receiver (TxRx). These instances are detailed in the corresponding section. For completeness, the inter-sensor performance table is also rewritten here.
 
 ## Format
 
@@ -33,6 +33,8 @@ Where *xllcorner* and *yllcorner* correspond respectively to the longitude and l
 
 ## Pre-processing
 
-## Visualisations of the DEMs (grids)
+In order to tackle the area coverage problem through the prism of exact resolution, it is necessary to perform a pre-processing on the grids (DEM). Indeed, the grids constructed from GEBCO elevation data are too refined to be solved in an exact way and it is then necessary to carry out a down-sampling procedure. This procedure has the effect of aggregating several cells into one and thus roughing up the area considered. To do this, the idea is to drag a filter of size nxn over the grid and aggregate the elevations (for example by means of an average). If needed, the last column and the last row can be repeated several times. The procedure is illustrated in figure below.
+
+![down_sampling](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/down_sampling.png)
 
 ## Instances
