@@ -33,7 +33,7 @@ Where *xllcorner* and *yllcorner* correspond respectively to the longitude and l
 
 ## Pre-processing
 
-In order to tackle the area coverage problem through the prism of exact resolution, it is necessary to perform a pre-processing on the grids (DEM). Indeed, the grids constructed from GEBCO elevation data are too refined to be solved in an exact way and it is then necessary to carry out a down-sampling procedure. This procedure has the effect of aggregating several cells into one and thus roughing up the area considered. To do this, the idea is to drag a filter of size nxn over the grid and aggregate the elevations (for example by means of an average). If needed, the last column and the last row can be repeated several times. The procedure is illustrated in figure below.
+In order to tackle the area coverage problem through the prism of exact resolution, it is necessary to perform a pre-processing on the grids (DEM). Indeed, the grids constructed from GEBCO elevation data are too refined to be solved in an exact way and it is then necessary to carry out a down-sampling procedure. This procedure consists in merging together several cells into one so as to coarsen the considered area. To do this, the idea is to drag a filter of size $n \times n$ over the grid and aggregate the elevations (for example trough an average). If needed, the last column and the last row can be repeated several times. The procedure is illustrated in figure below.
 
 ![down_sampling](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/down_sampling.png)
 
