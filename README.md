@@ -47,7 +47,7 @@ Then, the various instances are detailed hereafter with a thumbnail allowing to 
 
 ![group_1](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_1.png)
 
-![group_2](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_.png)
+![group_2](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_2.png)
 
 ![group_3](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_3.png)
 
