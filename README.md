@@ -45,11 +45,19 @@ First, the inter-sensor performances are reported below:
 
 Then, the various instances are detailed hereafter with a thumbnail allowing to visualize the grid under consideration.
 
+### Peninsula group
+
 ![group_1](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_1.png)
+
+### Strait group
 
 ![group_2](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_2.png)
 
+### Island group
+
 ![group_3](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_3.png)
+
+### River group
 
 ![group_4](https://github.com/owein-thuillier/MSN-dataset/blob/main/images/group_4.png)
 
