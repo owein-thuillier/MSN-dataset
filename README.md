@@ -1,4 +1,4 @@
-# Dataset
+# Dataset for heterogeneous Multistatic Sonar Networks (hMSNs) optimization
 
 As part of a research project on the optimal configuration of heterogeneous Multistatic Sonar Networks (MSNs), we provide here a dataset of 100 instances that were derived from 4 DEMs with different topology. 
 
